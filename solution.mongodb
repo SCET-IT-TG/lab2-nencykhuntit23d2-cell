@@ -4,30 +4,35 @@ db = db.getSiblingDB("companyDB");
 
 db.employees.insertMany([
   {
+    _id : 1,
     name: "Rahul",
     department: "IT",
     salary: 65000,
     age: 32
   },
   {
+    _id : 2,
     name: "Anita",
     department: "HR",
     salary: 28000,
     age: 24
   },
   {
+    _id : 3,
     name: "Suresh",
     department: "Sales",
     salary: 45000,
     age: 29
   },
   {
+    _id : 4,
     name: "Priya",
     department: "IT",
     salary: 75000,
     age: 27
   },
   {
+    _id : 5,
     name: "Kiran",
     department: "HR",
     salary: 52000,
